@@ -1,0 +1,89 @@
+body {
+    background-color: darkslategrey;
+    padding: 3px;
+    text-align: left;
+  }
+ #main {
+   margin-top: 1px;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: rgb(49, 104, 129);
+    border-style: solid;
+    border-color: rgb(15, 171, 243);
+    text-align: center;
+  }
+small {
+  color: rgb(204, 19, 19);
+}
+h1 {
+  color: rgb(0, 130, 236);
+  font-size: 38px;
+}
+h5 {
+  text-align: left;
+  color: rgb(188, 253, 7);
+}
+p {
+  text-align: center;
+  color:rgb(1, 14, 24);
+  font-size: 35px;
+}
+ 
+#canvas {
+  position: 'center';
+  margin: 10px;
+  padding: 5px;
+  border: 5px;
+  border-color: aqua;
+  background-color: rgb(24, 103, 134); 
+} 
+
+.game-box {
+    text-align:center;   
+} 
+
+.score { 
+  font-family:arial;
+  position: absolute;
+  text-align: left;
+  top: 25%;
+  right: 54.5%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+}  
+
+h6 {
+  color: rgb(22, 6, 95);
+}
+
+.game-info {
+  text-align:center; 
+  font-family:arial;
+  line-height:24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+} 
+
+.score-yes {
+  text-align: left;
+  font-family:arial;
+  line-height:24px;
+  position: absolute;
+  top: 26%;
+  left: 39%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); 
+} 
